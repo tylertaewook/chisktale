@@ -1,0 +1,10 @@
+c:\users\tyler\documents\visual studio 2015\Projects\Alitetale\Alitetale\bin\Debug\Alitetale.exe.config
+c:\users\tyler\documents\visual studio 2015\Projects\Alitetale\Alitetale\bin\Debug\Alitetale.exe
+c:\users\tyler\documents\visual studio 2015\Projects\Alitetale\Alitetale\bin\Debug\Alitetale.pdb
+c:\users\tyler\documents\visual studio 2015\Projects\Alitetale\Alitetale\obj\Debug\Alitetale.csprojResolveAssemblyReference.cache
+c:\users\tyler\documents\visual studio 2015\Projects\Alitetale\Alitetale\obj\Debug\Alitetale.Alitetale.resources
+c:\users\tyler\documents\visual studio 2015\Projects\Alitetale\Alitetale\obj\Debug\Alitetale.Properties.Resources.resources
+c:\users\tyler\documents\visual studio 2015\Projects\Alitetale\Alitetale\obj\Debug\Alitetale.csproj.GenerateResource.Cache
+c:\users\tyler\documents\visual studio 2015\Projects\Alitetale\Alitetale\obj\Debug\Alitetale.exe
+c:\users\tyler\documents\visual studio 2015\Projects\Alitetale\Alitetale\obj\Debug\Alitetale.pdb
+C:\Users\Tyler\Documents\Visual Studio 2015\Projects\Alitetale\Alitetale\obj\Debug\Alitetale.Form2.resources

@@ -1,0 +1,7 @@
+Chisktale
+V0.2.7
+2016/07/03
+
+Feature :
+-Added top/bottom dialogue system to avoid obj_dbox from depth problems
+-Fixed problem of customizing sound and font of the dialog

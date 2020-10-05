@@ -1,0 +1,12 @@
+Chisktale
+V0.2.4
+2016/07/02
+
+Feature :
+(What I actually did this day)
+-TRIED to add the battle system
+-Analyzed the battle system engine.
+
+
+SAVED FILE
+:Battle system is added in here(press space to access)

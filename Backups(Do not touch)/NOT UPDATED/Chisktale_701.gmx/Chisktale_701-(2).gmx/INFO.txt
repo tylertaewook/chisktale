@@ -1,0 +1,15 @@
+Chisktale
+V0.1.3
+2016/07/02
+
+Feature :
+-obj_interact
+*05:48
+added drawing rectangles with white border
+dialog now prints following the view screen
+added "DOOR IS LOCKED FROM OUTSIDE"dialog to rm_sansbasement
+*06:12
+obj_interact now only activates when obj_chisk is near
+*11:12
+FINALLY!! now dialog system is fully functioning.
++researching to make the text shaky shaky-not in dialog

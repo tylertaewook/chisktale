@@ -1,0 +1,15 @@
+Chisktale
+V0.2.5
+2016/07/03
+WARNING-BUGS
+
+Feature :
++Added Battle system
+-press 'space' to enter the battle state
+
++Bugs
+-cannot go back to original room after battle
+-not working(empty compile error message)
+
++Trying to..
+Flowey Encounter

@@ -1,0 +1,13 @@
+Chisktale
+V0.1.3
+2016/07/03
+
+Feature :
++Added Battle system
+-press 'space' to enter the battle state
+
++Bugs
+-cannot go back to original room after battle
+
++Trying to..
+Flowey Encounter

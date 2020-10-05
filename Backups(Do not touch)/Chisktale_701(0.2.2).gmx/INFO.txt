@@ -1,0 +1,20 @@
+Chisktale
+V0.2.2
+2016/07/01 PM 06:12:38
+
+Feature :
+-obj_interact
+*05:48
+added drawing rectangles with white border
+dialog now prints following the view screen
+added "DOOR IS LOCKED FROM OUTSIDE"dialog to rm_sansbasement
+*06:12
+obj_interact now only activates when obj_chisk is near
+
+
+
+-obj_screen
+*05:48
+added animation effect for the screen in the lab
+*06:12
+adjusted size of sprite to fit in the screen

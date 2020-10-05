@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F2FE6F1E-FAEA-4966-80F3-B8D48FC7C1A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Alitetale</RootNamespace>
+    <AssemblyName>Alitetale</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\Alitetale.Alitetale.resources" />
+    <EmbeddedResource Include="obj\Debug\Alitetale.Properties.Resources.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="bin\Debug\Alitetale.exe.config" />
+    <None Include="bin\Debug\Alitetale.vshost.exe.config" />
+    <None Include="bin\Debug\Alitetale.vshost.exe.manifest" />
+    <None Include="obj\Debug\Alitetale.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\Alitetale.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Undertale\css\fonts\a skele-ton.bdf" />
+    <None Include="Undertale\css\fonts\a skele-ton.pbm" />
+    <None Include="Undertale\css\fonts\a skele-ton.pil" />
+    <None Include="Undertale\css\fonts\DeterminationMono\dtm-mono-webfont.eot" />
+    <None Include="Undertale\css\fonts\DeterminationMono\dtm-mono-webfont.ttf" />
+    <None Include="Undertale\css\fonts\DeterminationMono\dtm-mono-webfont.woff" />
+    <None Include="Undertale\css\fonts\DeterminationMono\dtm-mono-webfont.woff2" />
+    <None Include="Undertale\css\fonts\DTM-Mono.otf" />
+    <None Include="Undertale\css\fonts\NYEH HEH HEH!.bdf" />
+    <None Include="Undertale\css\fonts\NYEH HEH HEH!.pbm" />
+    <None Include="Undertale\css\fonts\NYEH HEH HEH!.pil" />
+    <None Include="Undertale\css\fonts\Papyrus.ttf" />
+    <None Include="Undertale\css\fonts\Smooth Papyrus\Smooth_Papyrus.eot" />
+    <None Include="Undertale\css\fonts\Smooth Papyrus\Smooth_Papyrus.ttf" />
+    <None Include="Undertale\css\fonts\Smooth Papyrus\Smooth_Papyrus.woff" />
+    <None Include="Undertale\css\fonts\Smooth Papyrus\Smooth_Papyrus.woff2" />
+    <None Include="Undertale\Fonts\DeterminationMonoWeb.ttf" />
+    <None Include="Undertale\Fonts\MonsterFriendBack.ttf" />
+    <None Include="Undertale\SFX\.DS_Store" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Alitetale.exe" />
+    <Content Include="bin\Debug\Alitetale.pdb" />
+    <Content Include="bin\Debug\Alitetale.vshost.exe" />
+    <Content Include="obj\Debug\Alitetale.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Alitetale.exe" />
+    <Content Include="obj\Debug\Alitetale.pdb" />
+    <None Include="Resources\0.png" />
+    <Content Include="Undertale\css\fonts\DeterminationMono\dtm-mono-webfont.svg" />
+    <Content Include="Undertale\css\fonts\DeterminationMono\generator_config.txt" />
+    <Content Include="Undertale\css\fonts\DeterminationMono\stylesheet.css" />
+    <Content Include="Undertale\css\fonts\Smooth Papyrus\Smooth_Papyrus.svg" />
+    <Content Include="Undertale\css\main.css" />
+    <Content Include="Undertale\SFX\alien.wav" />
+    <Content Include="Undertale\SFX\amalgamate_1.wav" />
+    <Content Include="Undertale\SFX\amalgamate_2.wav" />
+    <Content Include="Undertale\SFX\amalgamate_3.wav" />
+    <Content Include="Undertale\SFX\asgore_flash_1.wav" />
+    <Content Include="Undertale\SFX\asgore_flash_2.wav" />
+    <Content Include="Undertale\SFX\asgore_swing.wav" />
+    <Content Include="Undertale\SFX\asriel_battle_sound_1.wav" />
+    <Content Include="Undertale\SFX\asriel_battle_sound_2.wav" />
+    <Content Include="Undertale\SFX\asriel_battle_sound_3.wav" />
+    <Content Include="Undertale\SFX\asriel_battle_sound_4.wav" />
+    <Content Include="Undertale\SFX\asriel_battle_sound_5.wav" />
+    <Content Include="Undertale\SFX\asriel_battle_sound_6.wav" />
+    <Content Include="Undertale\SFX\asriel_hypergoner_laugh.wav" />
+    <Content Include="Undertale\SFX\ballgame_flag.wav" />
+    <Content Include="Undertale\SFX\battle_item_drink.wav" />
+    <Content Include="Undertale\SFX\battle_item_eat.wav" />
+    <Content Include="Undertale\SFX\battle_item_eat_starfait.wav" />
+    <Content Include="Undertale\SFX\battle_item_equip.wav" />
+    <Content Include="Undertale\SFX\battle_item_weapon_select.wav" />
+    <Content Include="Undertale\SFX\borfborf.wav" />
+    <Content Include="Undertale\SFX\branch.wav" />
+    <Content Include="Undertale\SFX\chatbox.wav" />
+    <Content Include="Undertale\SFX\clock.wav" />
+    <Content Include="Undertale\SFX\core_lasers.wav" />
+    <Content Include="Undertale\SFX\core_power_down.wav" />
+    <Content Include="Undertale\SFX\core_puzzle.wav" />
+    <Content Include="Undertale\SFX\core_sound.wav" />
+    <Content Include="Undertale\SFX\Ding.wav" />
+    <Content Include="Undertale\SFX\dog_bark_1.wav" />
+    <Content Include="Undertale\SFX\dog_bark_2.wav" />
+    <Content Include="Undertale\SFX\drums.wav" />
+    <Content Include="Undertale\SFX\drum_single_1.wav" />
+    <Content Include="Undertale\SFX\drum_single_2.wav" />
+    <Content Include="Undertale\SFX\drum_single_3.wav" />
+    <Content Include="Undertale\SFX\elevator_close.wav" />
+    <Content Include="Undertale\SFX\elevator_malfunction.wav" />
+    <Content Include="Undertale\SFX\elevator_open.wav" />
+    <Content Include="Undertale\SFX\fairy_1.wav" />
+    <Content Include="Undertale\SFX\fairy_2.wav" />
+    <Content Include="Undertale\SFX\fall.wav" />
+    <Content Include="Undertale\SFX\flowey_laugh.wav" />
+    <Content Include="Undertale\SFX\flowey_ran_away.wav" />
+    <Content Include="Undertale\SFX\footsteps_water_1.wav" />
+    <Content Include="Undertale\SFX\footsteps_water_2.wav" />
+    <Content Include="Undertale\SFX\footsteps_water_3.wav" />
+    <Content Include="Undertale\SFX\glassbreak.wav" />
+    <Content Include="Undertale\SFX\greaterdog_bark.wav" />
+    <Content Include="Undertale\SFX\honk_of_despair.wav" />
+    <Content Include="Undertale\SFX\invisible_maze_shock.wav" />
+    <Content Include="Undertale\SFX\item_hit_critical.wav" />
+    <Content Include="Undertale\SFX\item_knife_attack.wav" />
+    <Content Include="Undertale\SFX\item_stick_attack.wav" />
+    <Content Include="Undertale\SFX\item_streak_1.wav" />
+    <Content Include="Undertale\SFX\item_streak_2.wav" />
+    <Content Include="Undertale\SFX\item_toughglove_hit_1.wav" />
+    <Content Include="Undertale\SFX\item_toughglove_hit_2.wav" />
+    <Content Include="Undertale\SFX\item_toughglove_hit_3.wav" />
+    <Content Include="Undertale\SFX\knock_beautiful.wav" />
+    <Content Include="Undertale\SFX\LOVE_increased.wav" />
+    <Content Include="Undertale\SFX\mainmenu_select.wav" />
+    <Content Include="Undertale\SFX\meowmeowmeow.wav" />
+    <Content Include="Undertale\SFX\misteryman_vanish.wav" />
+    <Content Include="Undertale\SFX\monster_damage_1.wav" />
+    <Content Include="Undertale\SFX\monster_damage_2.wav" />
+    <Content Include="Undertale\SFX\monster_damage_3.wav" />
+    <Content Include="Undertale\SFX\monster_damage_4.wav" />
+    <Content Include="Undertale\SFX\monster_damage_5.wav" />
+    <Content Include="Undertale\SFX\monster_damage_6.wav" />
+    <Content Include="Undertale\SFX\monster_damage_7.wav" />
+    <Content Include="Undertale\SFX\monster_damage_death.wav" />
+    <Content Include="Undertale\SFX\monster_damage_hit.wav" />
+    <Content Include="Undertale\SFX\monster_damage_hit_critical.wav" />
+    <Content Include="Undertale\SFX\monster_encounter.wav" />
+    <Content Include="Undertale\SFX\mouse_squeek.wav" />
+    <Content Include="Undertale\SFX\muffet_laugh_1.wav" />
+    <Content Include="Undertale\SFX\muffet_laugh_2.wav" />
+    <Content Include="Undertale\SFX\muffet_laugh_3.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_1.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_10.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_11.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_12.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_13.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_14.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_15.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_16.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_17.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_18.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_2.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_3.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_4.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_5.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_6.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_7.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_8.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_battle_sound_9.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_damage_1.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_damage_2.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_hit.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_laser_1.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_laser_2.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_laser_3.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_laser_4.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_laugh.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_ping.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_relieve.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_soul_saved.wav" />
+    <Content Include="Undertale\SFX\omegaflowey_static.wav" />
+    <Content Include="Undertale\SFX\piano_1.wav" />
+    <Content Include="Undertale\SFX\piano_2.wav" />
+    <Content Include="Undertale\SFX\piano_3.wav" />
+    <Content Include="Undertale\SFX\piano_4.wav" />
+    <Content Include="Undertale\SFX\piano_5.wav" />
+    <Content Include="Undertale\SFX\piano_6.wav" />
+    <Content Include="Undertale\SFX\piano_alt_1.wav" />
+    <Content Include="Undertale\SFX\piano_alt_2.wav" />
+    <Content Include="Undertale\SFX\piano_alt_3.wav" />
+    <Content Include="Undertale\SFX\piano_alt_4.wav" />
+    <Content Include="Undertale\SFX\sans_battle_gasterblaster_charge.wav" />
+    <Content Include="Undertale\SFX\sans_battle_gasterblaster_fire.wav" />
+    <Content Include="Undertale\SFX\sans_battle_pound.wav" />
+    <Content Include="Undertale\SFX\SAVE_ok.wav" />
+    <Content Include="Undertale\SFX\SAVE_point.wav" />
+    <Content Include="Undertale\SFX\shop_purchase.wav" />
+    <Content Include="Undertale\SFX\shop_select.wav" />
+    <Content Include="Undertale\SFX\shyren_distorted_sing_1.wav" />
+    <Content Include="Undertale\SFX\shyren_distorted_sing_2.wav" />
+    <Content Include="Undertale\SFX\shyren_distorted_sing_3.wav" />
+    <Content Include="Undertale\SFX\shyren_sing_1.wav" />
+    <Content Include="Undertale\SFX\shyren_sing_2.wav" />
+    <Content Include="Undertale\SFX\shyren_sing_3.wav" />
+    <Content Include="Undertale\SFX\shyren_sing_4.wav" />
+    <Content Include="Undertale\SFX\shyren_sing_5.wav" />
+    <Content Include="Undertale\SFX\shyren_sing_6.wav" />
+    <Content Include="Undertale\SFX\shyren_sing_7.wav" />
+    <Content Include="Undertale\SFX\shyren_sing_8.wav" />
+    <Content Include="Undertale\SFX\shyren_sing_9.wav" />
+    <Content Include="Undertale\SFX\signal_distort_1.wav" />
+    <Content Include="Undertale\SFX\signal_distort_2.wav" />
+    <Content Include="Undertale\SFX\signal_distort_3.wav" />
+    <Content Include="Undertale\SFX\signal_distort_4.wav" />
+    <Content Include="Undertale\SFX\signal_distort_5.wav" />
+    <Content Include="Undertale\SFX\signal_distort_6.wav" />
+    <Content Include="Undertale\SFX\soul_battle_flash.wav" />
+    <Content Include="Undertale\SFX\soul_battle_start.wav" />
+    <Content Include="Undertale\SFX\soul_damage_1.wav" />
+    <Content Include="Undertale\SFX\soul_damage_2.wav" />
+    <Content Include="Undertale\SFX\soul_damage_3_sans.wav" />
+    <Content Include="Undertale\SFX\soul_gameover_hit.wav" />
+    <Content Include="Undertale\SFX\soul_gameover_hit_break.wav" />
+    <Content Include="Undertale\SFX\soul_mettaton_hit_1.wav" />
+    <Content Include="Undertale\SFX\soul_mettaton_hit_2.wav" />
+    <Content Include="Undertale\SFX\soul_yellow_fire.wav" />
+    <Content Include="Undertale\SFX\strange_1.wav" />
+    <Content Include="Undertale\SFX\strange_2.wav" />
+    <Content Include="Undertale\SFX\succes_1.wav" />
+    <Content Include="Undertale\SFX\succes_2.wav" />
+    <Content Include="Undertale\SFX\switch_1.wav" />
+    <Content Include="Undertale\SFX\switch_2.wav" />
+    <Content Include="Undertale\SFX\talk_1.wav" />
+    <Content Include="Undertale\SFX\talk_2.wav" />
+    <Content Include="Undertale\SFX\talk_3.wav" />
+    <Content Include="Undertale\SFX\talk_4.wav" />
+    <Content Include="Undertale\SFX\talk_alphys.wav" />
+    <Content Include="Undertale\SFX\talk_asgore_1.wav" />
+    <Content Include="Undertale\SFX\talk_asgore_2.wav" />
+    <Content Include="Undertale\SFX\talk_asriel.wav" />
+    <Content Include="Undertale\SFX\talk_default.wav" />
+    <Content Include="Undertale\SFX\talk_demonic.wav" />
+    <Content Include="Undertale\SFX\talk_flowey_1.wav" />
+    <Content Include="Undertale\SFX\talk_flowey_2.wav" />
+    <Content Include="Undertale\SFX\talk_gaster_1.wav" />
+    <Content Include="Undertale\SFX\talk_gaster_2.wav" />
+    <Content Include="Undertale\SFX\talk_gaster_3.wav" />
+    <Content Include="Undertale\SFX\talk_gaster_4.wav" />
+    <Content Include="Undertale\SFX\talk_gaster_5.wav" />
+    <Content Include="Undertale\SFX\talk_gaster_6.wav" />
+    <Content Include="Undertale\SFX\talk_mettaton_1.wav" />
+    <Content Include="Undertale\SFX\talk_mettaton_2.wav" />
+    <Content Include="Undertale\SFX\talk_mettaton_3.wav" />
+    <Content Include="Undertale\SFX\talk_mettaton_4.wav" />
+    <Content Include="Undertale\SFX\talk_mettaton_5.wav" />
+    <Content Include="Undertale\SFX\talk_mettaton_6.wav" />
+    <Content Include="Undertale\SFX\talk_mettaton_7.wav" />
+    <Content Include="Undertale\SFX\talk_mettaton_8.wav" />
+    <Content Include="Undertale\SFX\talk_mettaton_9.wav" />
+    <Content Include="Undertale\SFX\talk_papyrus.wav" />
+    <Content Include="Undertale\SFX\talk_sans.wav" />
+    <Content Include="Undertale\SFX\talk_select.wav" />
+    <Content Include="Undertale\SFX\talk_temmie_1.wav" />
+    <Content Include="Undertale\SFX\talk_temmie_2.wav" />
+    <Content Include="Undertale\SFX\talk_temmie_3.wav" />
+    <Content Include="Undertale\SFX\talk_temmie_4.wav" />
+    <Content Include="Undertale\SFX\talk_temmie_5.wav" />
+    <Content Include="Undertale\SFX\talk_toriel_1.wav" />
+    <Content Include="Undertale\SFX\talk_toriel_2.wav" />
+    <Content Include="Undertale\SFX\talk_toriel_3.wav" />
+    <Content Include="Undertale\SFX\talk_undyne_1.wav" />
+    <Content Include="Undertale\SFX\talk_undyne_2.wav" />
+    <Content Include="Undertale\SFX\talk_undyne_3.wav" />
+    <Content Include="Undertale\SFX\talk_undyne_4.wav" />
+    <Content Include="Undertale\SFX\talk_undyne_5.wav" />
+    <Content Include="Undertale\SFX\telephone_dimensional_box.wav" />
+    <Content Include="Undertale\SFX\telephone_friendrequest.wav" />
+    <Content Include="Undertale\SFX\telephone_ring.wav" />
+    <Content Include="Undertale\SFX\telephone_status_update.wav" />
+    <Content Include="Undertale\SFX\thats_a_wonderful_idea.wav" />
+    <Content Include="Undertale\SFX\tsundreplane_crash.wav" />
+    <Content Include="Undertale\SFX\tsundreplane_fall.wav" />
+    <Content Include="Undertale\SFX\undyne_armor_footstep.wav" />
+    <Content Include="Undertale\SFX\undyne_spear_appear.wav" />
+    <Content Include="Undertale\SFX\undyne_spear_fire.wav" />
+    <Content Include="Undertale\SFX\undyne_spear_fly.wav" />
+    <Content Include="Undertale\SFX\unused_1.wav" />
+    <Content Include="Undertale\SFX\unused_2.wav" />
+    <Content Include="Undertale\SFX\unused_3.wav" />
+    <Content Include="Undertale\SFX\woofwoofwoof.wav" />
+    <Content Include="Undertale\SFX\yeah_1.wav" />
+    <Content Include="Undertale\SFX\yeah_2.wav" />
+    <Content Include="Undertale\sprites\Alphys\0.png" />
+    <Content Include="Undertale\sprites\Alphys\1.png" />
+    <Content Include="Undertale\sprites\Alphys\10.png" />
+    <Content Include="Undertale\sprites\Alphys\11.png" />
+    <Content Include="Undertale\sprites\Alphys\12.png" />
+    <Content Include="Undertale\sprites\Alphys\13.png" />
+    <Content Include="Undertale\sprites\Alphys\14.png" />
+    <Content Include="Undertale\sprites\Alphys\15.png" />
+    <Content Include="Undertale\sprites\Alphys\16.png" />
+    <Content Include="Undertale\sprites\Alphys\17.png" />
+    <Content Include="Undertale\sprites\Alphys\18.png" />
+    <Content Include="Undertale\sprites\Alphys\19.png" />
+    <Content Include="Undertale\sprites\Alphys\2.png" />
+    <Content Include="Undertale\sprites\Alphys\20.png" />
+    <Content Include="Undertale\sprites\Alphys\21.png" />
+    <Content Include="Undertale\sprites\Alphys\22.png" />
+    <Content Include="Undertale\sprites\Alphys\3.png" />
+    <Content Include="Undertale\sprites\Alphys\4.png" />
+    <Content Include="Undertale\sprites\Alphys\5.png" />
+    <Content Include="Undertale\sprites\Alphys\6.png" />
+    <Content Include="Undertale\sprites\Alphys\7.png" />
+    <Content Include="Undertale\sprites\Alphys\8.png" />
+    <Content Include="Undertale\sprites\Alphys\9.png" />
+    <Content Include="Undertale\sprites\Asgore\0.png" />
+    <Content Include="Undertale\sprites\Asgore\1.png" />
+    <Content Include="Undertale\sprites\Asgore\10.png" />
+    <Content Include="Undertale\sprites\Asgore\11.png" />
+    <Content Include="Undertale\sprites\Asgore\12.png" />
+    <Content Include="Undertale\sprites\Asgore\13.png" />
+    <Content Include="Undertale\sprites\Asgore\14.png" />
+    <Content Include="Undertale\sprites\Asgore\15.png" />
+    <Content Include="Undertale\sprites\Asgore\16.png" />
+    <Content Include="Undertale\sprites\Asgore\17.png" />
+    <Content Include="Undertale\sprites\Asgore\18.png" />
+    <Content Include="Undertale\sprites\Asgore\19.png" />
+    <Content Include="Undertale\sprites\Asgore\2.png" />
+    <Content Include="Undertale\sprites\Asgore\20.png" />
+    <Content Include="Undertale\sprites\Asgore\21.png" />
+    <Content Include="Undertale\sprites\Asgore\3.png" />
+    <Content Include="Undertale\sprites\Asgore\4.png" />
+    <Content Include="Undertale\sprites\Asgore\5.png" />
+    <Content Include="Undertale\sprites\Asgore\6.png" />
+    <Content Include="Undertale\sprites\Asgore\7.png" />
+    <Content Include="Undertale\sprites\Asgore\8.png" />
+    <Content Include="Undertale\sprites\Asgore\9.png" />
+    <Content Include="Undertale\sprites\Asriel\0.png" />
+    <Content Include="Undertale\sprites\Asriel\1.png" />
+    <Content Include="Undertale\sprites\Asriel\10.png" />
+    <Content Include="Undertale\sprites\Asriel\11.png" />
+    <Content Include="Undertale\sprites\Asriel\12.png" />
+    <Content Include="Undertale\sprites\Asriel\13.png" />
+    <Content Include="Undertale\sprites\Asriel\14.png" />
+    <Content Include="Undertale\sprites\Asriel\15.png" />
+    <Content Include="Undertale\sprites\Asriel\16.png" />
+    <Content Include="Undertale\sprites\Asriel\17.png" />
+    <Content Include="Undertale\sprites\Asriel\18.png" />
+    <Content Include="Undertale\sprites\Asriel\19.png" />
+    <Content Include="Undertale\sprites\Asriel\2.png" />
+    <Content Include="Undertale\sprites\Asriel\20.png" />
+    <Content Include="Undertale\sprites\Asriel\21.png" />
+    <Content Include="Undertale\sprites\Asriel\22.png" />
+    <Content Include="Undertale\sprites\Asriel\23.png" />
+    <Content Include="Undertale\sprites\Asriel\24.png" />
+    <Content Include="Undertale\sprites\Asriel\25.png" />
+    <Content Include="Undertale\sprites\Asriel\26.png" />
+    <Content Include="Undertale\sprites\Asriel\3.png" />
+    <Content Include="Undertale\sprites\Asriel\4.png" />
+    <Content Include="Undertale\sprites\Asriel\5.png" />
+    <Content Include="Undertale\sprites\Asriel\6.png" />
+    <Content Include="Undertale\sprites\Asriel\7.png" />
+    <Content Include="Undertale\sprites\Asriel\8.png" />
+    <Content Include="Undertale\sprites\Asriel\9.png" />
+    <Content Include="Undertale\sprites\Extra\creditsbutton.png" />
+    <Content Include="Undertale\sprites\Extra\heart.png" />
+    <Content Include="Undertale\sprites\Extra\upload-anim.gif" />
+    <Content Include="Undertale\sprites\Extra\upload-done.png" />
+    <Content Include="Undertale\sprites\Extra\upload-failed.png" />
+    <Content Include="Undertale\sprites\Extra\upload-start.png" />
+    <Content Include="Undertale\sprites\Flowey\0.png" />
+    <Content Include="Undertale\sprites\Flowey\1.png" />
+    <Content Include="Undertale\sprites\Flowey\10.png" />
+    <Content Include="Undertale\sprites\Flowey\11.png" />
+    <Content Include="Undertale\sprites\Flowey\12.png" />
+    <Content Include="Undertale\sprites\Flowey\13.png" />
+    <Content Include="Undertale\sprites\Flowey\14.png" />
+    <Content Include="Undertale\sprites\Flowey\15.png" />
+    <Content Include="Undertale\sprites\Flowey\16.png" />
+    <Content Include="Undertale\sprites\Flowey\17.png" />
+    <Content Include="Undertale\sprites\Flowey\18.png" />
+    <Content Include="Undertale\sprites\Flowey\19.png" />
+    <Content Include="Undertale\sprites\Flowey\2.png" />
+    <Content Include="Undertale\sprites\Flowey\20.png" />
+    <Content Include="Undertale\sprites\Flowey\21.png" />
+    <Content Include="Undertale\sprites\Flowey\22.png" />
+    <Content Include="Undertale\sprites\Flowey\23.png" />
+    <Content Include="Undertale\sprites\Flowey\3.png" />
+    <Content Include="Undertale\sprites\Flowey\4.png" />
+    <Content Include="Undertale\sprites\Flowey\5.png" />
+    <Content Include="Undertale\sprites\Flowey\6.png" />
+    <Content Include="Undertale\sprites\Flowey\7.png" />
+    <Content Include="Undertale\sprites\Flowey\8.png" />
+    <Content Include="Undertale\sprites\Flowey\9.png" />
+    <Content Include="Undertale\sprites\Flowey\a.png" />
+    <Content Include="Undertale\sprites\Flowey\b.jpg" />
+    <Content Include="Undertale\sprites\Mettaton\0.png" />
+    <Content Include="Undertale\sprites\Mettaton\1.png" />
+    <Content Include="Undertale\sprites\Mettaton\10.png" />
+    <Content Include="Undertale\sprites\Mettaton\11.png" />
+    <Content Include="Undertale\sprites\Mettaton\12.png" />
+    <Content Include="Undertale\sprites\Mettaton\13.png" />
+    <Content Include="Undertale\sprites\Mettaton\14.png" />
+    <Content Include="Undertale\sprites\Mettaton\15.png" />
+    <Content Include="Undertale\sprites\Mettaton\16.png" />
+    <Content Include="Undertale\sprites\Mettaton\17.png" />
+    <Content Include="Undertale\sprites\Mettaton\18.png" />
+    <Content Include="Undertale\sprites\Mettaton\19.png" />
+    <Content Include="Undertale\sprites\Mettaton\2.png" />
+    <Content Include="Undertale\sprites\Mettaton\20.png" />
+    <Content Include="Undertale\sprites\Mettaton\21.png" />
+    <Content Include="Undertale\sprites\Mettaton\22.png" />
+    <Content Include="Undertale\sprites\Mettaton\23.png" />
+    <Content Include="Undertale\sprites\Mettaton\24.png" />
+    <Content Include="Undertale\sprites\Mettaton\25.png" />
+    <Content Include="Undertale\sprites\Mettaton\26.png" />
+    <Content Include="Undertale\sprites\Mettaton\27.png" />
+    <Content Include="Undertale\sprites\Mettaton\28.png" />
+    <Content Include="Undertale\sprites\Mettaton\29.png" />
+    <Content Include="Undertale\sprites\Mettaton\3.png" />
+    <Content Include="Undertale\sprites\Mettaton\4.png" />
+    <Content Include="Undertale\sprites\Mettaton\5.png" />
+    <Content Include="Undertale\sprites\Mettaton\6.png" />
+    <Content Include="Undertale\sprites\Mettaton\7.png" />
+    <Content Include="Undertale\sprites\Mettaton\8.png" />
+    <Content Include="Undertale\sprites\Mettaton\9.png" />
+    <Content Include="Undertale\sprites\Napstablook\0.png" />
+    <Content Include="Undertale\sprites\Napstablook\1.png" />
+    <Content Include="Undertale\sprites\Napstablook\2.png" />
+    <Content Include="Undertale\sprites\Papyrus\0.png" />
+    <Content Include="Undertale\sprites\Papyrus\1.png" />
+    <Content Include="Undertale\sprites\Papyrus\10.png" />
+    <Content Include="Undertale\sprites\Papyrus\11.png" />
+    <Content Include="Undertale\sprites\Papyrus\12.png" />
+    <Content Include="Undertale\sprites\Papyrus\13.png" />
+    <Content Include="Undertale\sprites\Papyrus\14.png" />
+    <Content Include="Undertale\sprites\Papyrus\15.png" />
+    <Content Include="Undertale\sprites\Papyrus\16.png" />
+    <Content Include="Undertale\sprites\Papyrus\17.png" />
+    <Content Include="Undertale\sprites\Papyrus\18.png" />
+    <Content Include="Undertale\sprites\Papyrus\19.png" />
+    <Content Include="Undertale\sprites\Papyrus\2.png" />
+    <Content Include="Undertale\sprites\Papyrus\3.png" />
+    <Content Include="Undertale\sprites\Papyrus\4.png" />
+    <Content Include="Undertale\sprites\Papyrus\5.png" />
+    <Content Include="Undertale\sprites\Papyrus\6.png" />
+    <Content Include="Undertale\sprites\Papyrus\7.png" />
+    <Content Include="Undertale\sprites\Papyrus\8.png" />
+    <Content Include="Undertale\sprites\Papyrus\9.png" />
+    <Content Include="Undertale\sprites\Sans\0.png" />
+    <Content Include="Undertale\sprites\Sans\1.png" />
+    <Content Include="Undertale\sprites\Sans\10.png" />
+    <Content Include="Undertale\sprites\Sans\11.png" />
+    <Content Include="Undertale\sprites\Sans\12.png" />
+    <Content Include="Undertale\sprites\Sans\13.png" />
+    <Content Include="Undertale\sprites\Sans\14.png" />
+    <Content Include="Undertale\sprites\Sans\2.png" />
+    <Content Include="Undertale\sprites\Sans\3.png" />
+    <Content Include="Undertale\sprites\Sans\4.png" />
+    <Content Include="Undertale\sprites\Sans\5.png" />
+    <Content Include="Undertale\sprites\Sans\6.png" />
+    <Content Include="Undertale\sprites\Sans\7.png" />
+    <Content Include="Undertale\sprites\Sans\8.png" />
+    <Content Include="Undertale\sprites\Sans\9.png" />
+    <Content Include="Undertale\sprites\Temmie\0.png" />
+    <Content Include="Undertale\sprites\Temmie\1.png" />
+    <Content Include="Undertale\sprites\Temmie\2.png" />
+    <Content Include="Undertale\sprites\Temmie\3.png" />
+    <Content Include="Undertale\sprites\Toriel\0.png" />
+    <Content Include="Undertale\sprites\Toriel\1.png" />
+    <Content Include="Undertale\sprites\Toriel\10.png" />
+    <Content Include="Undertale\sprites\Toriel\11.png" />
+    <Content Include="Undertale\sprites\Toriel\12.png" />
+    <Content Include="Undertale\sprites\Toriel\13.png" />
+    <Content Include="Undertale\sprites\Toriel\14.png" />
+    <Content Include="Undertale\sprites\Toriel\15.png" />
+    <Content Include="Undertale\sprites\Toriel\16.png" />
+    <Content Include="Undertale\sprites\Toriel\17.png" />
+    <Content Include="Undertale\sprites\Toriel\18.png" />
+    <Content Include="Undertale\sprites\Toriel\19.png" />
+    <Content Include="Undertale\sprites\Toriel\2.png" />
+    <Content Include="Undertale\sprites\Toriel\20.png" />
+    <Content Include="Undertale\sprites\Toriel\21.png" />
+    <Content Include="Undertale\sprites\Toriel\22.png" />
+    <Content Include="Undertale\sprites\Toriel\23.png" />
+    <Content Include="Undertale\sprites\Toriel\24.png" />
+    <Content Include="Undertale\sprites\Toriel\25.png" />
+    <Content Include="Undertale\sprites\Toriel\26.png" />
+    <Content Include="Undertale\sprites\Toriel\27.png" />
+    <Content Include="Undertale\sprites\Toriel\28.png" />
+    <Content Include="Undertale\sprites\Toriel\29.png" />
+    <Content Include="Undertale\sprites\Toriel\3.png" />
+    <Content Include="Undertale\sprites\Toriel\30.png" />
+    <Content Include="Undertale\sprites\Toriel\31.png" />
+    <Content Include="Undertale\sprites\Toriel\32.png" />
+    <Content Include="Undertale\sprites\Toriel\33.png" />
+    <Content Include="Undertale\sprites\Toriel\34.png" />
+    <Content Include="Undertale\sprites\Toriel\35.png" />
+    <Content Include="Undertale\sprites\Toriel\36.png" />
+    <Content Include="Undertale\sprites\Toriel\37.png" />
+    <Content Include="Undertale\sprites\Toriel\38.png" />
+    <Content Include="Undertale\sprites\Toriel\39.png" />
+    <Content Include="Undertale\sprites\Toriel\4.png" />
+    <Content Include="Undertale\sprites\Toriel\40.png" />
+    <Content Include="Undertale\sprites\Toriel\5.png" />
+    <Content Include="Undertale\sprites\Toriel\6.png" />
+    <Content Include="Undertale\sprites\Toriel\7.png" />
+    <Content Include="Undertale\sprites\Toriel\8.png" />
+    <Content Include="Undertale\sprites\Toriel\9.png" />
+    <Content Include="Undertale\sprites\Undyne\0.png" />
+    <Content Include="Undertale\sprites\Undyne\1.png" />
+    <Content Include="Undertale\sprites\Undyne\10.png" />
+    <Content Include="Undertale\sprites\Undyne\11.png" />
+    <Content Include="Undertale\sprites\Undyne\12.png" />
+    <Content Include="Undertale\sprites\Undyne\13.png" />
+    <Content Include="Undertale\sprites\Undyne\14.png" />
+    <Content Include="Undertale\sprites\Undyne\15.png" />
+    <Content Include="Undertale\sprites\Undyne\16.png" />
+    <Content Include="Undertale\sprites\Undyne\17.png" />
+    <Content Include="Undertale\sprites\Undyne\18.png" />
+    <Content Include="Undertale\sprites\Undyne\19.png" />
+    <Content Include="Undertale\sprites\Undyne\2.png" />
+    <Content Include="Undertale\sprites\Undyne\20.png" />
+    <Content Include="Undertale\sprites\Undyne\21.png" />
+    <Content Include="Undertale\sprites\Undyne\22.png" />
+    <Content Include="Undertale\sprites\Undyne\23.png" />
+    <Content Include="Undertale\sprites\Undyne\24.png" />
+    <Content Include="Undertale\sprites\Undyne\25.png" />
+    <Content Include="Undertale\sprites\Undyne\26.png" />
+    <Content Include="Undertale\sprites\Undyne\27.png" />
+    <Content Include="Undertale\sprites\Undyne\28.png" />
+    <Content Include="Undertale\sprites\Undyne\29.png" />
+    <Content Include="Undertale\sprites\Undyne\3.png" />
+    <Content Include="Undertale\sprites\Undyne\30.png" />
+    <Content Include="Undertale\sprites\Undyne\31.png" />
+    <Content Include="Undertale\sprites\Undyne\32.png" />
+    <Content Include="Undertale\sprites\Undyne\33.png" />
+    <Content Include="Undertale\sprites\Undyne\34.png" />
+    <Content Include="Undertale\sprites\Undyne\35.png" />
+    <Content Include="Undertale\sprites\Undyne\36.png" />
+    <Content Include="Undertale\sprites\Undyne\37.png" />
+    <Content Include="Undertale\sprites\Undyne\38.png" />
+    <Content Include="Undertale\sprites\Undyne\39.png" />
+    <Content Include="Undertale\sprites\Undyne\4.png" />
+    <Content Include="Undertale\sprites\Undyne\5.png" />
+    <Content Include="Undertale\sprites\Undyne\6.png" />
+    <Content Include="Undertale\sprites\Undyne\7.png" />
+    <Content Include="Undertale\sprites\Undyne\8.png" />
+    <Content Include="Undertale\sprites\Undyne\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

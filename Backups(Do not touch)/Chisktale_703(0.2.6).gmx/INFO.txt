@@ -1,0 +1,12 @@
+Chisktale
+V0.2.6
+2016/07/03
+
+Feature :
+(What I actually did this day)
+-Add the battle system
+-Analyzed the battle system engine.
+-Dialogue goes faster when holding enter
+
+SAVED FILE
+:Battle system is added in here(press space to access)

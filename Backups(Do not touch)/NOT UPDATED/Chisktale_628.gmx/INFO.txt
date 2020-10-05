@@ -1,0 +1,11 @@
+Chisktale
+V0.1.0
+2016/06/28 PM 10:14:32
+
+Feature :
+-obj_wall
+Physics collision
+
+-obj_door
+Move between doors
+Used creation code to set the player's location in new room
